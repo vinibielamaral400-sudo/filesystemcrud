@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: compile
-      run: gcc multiplicar_test.c -o multiplicar_test
+      run: gcc filesystemcrud_test.c -o filesystemcrud_test
     - name: run
-      run: ./multiplicar_test
+      run: ./filesystemcrud_test
